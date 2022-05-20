@@ -25,6 +25,7 @@ class Test_Task2:
         time.sleep(5)
         autods = self.driver.find_element_by_xpath(self.autodsLink)
         self.driver.execute_script("arguments[0].click();", autods)
+        self.driver.quit()
 
 
 

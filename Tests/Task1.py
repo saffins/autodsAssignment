@@ -37,7 +37,4 @@ class Test_Task1:
         self.driver.switch_to.window(chld)
         addbtn =  self.driver.find_element_by_id(self.addToCartBtn)
         self.driver.execute_script("arguments[0].click();",addbtn)
-
-
-        time.sleep(5)
         self.driver.quit()
